@@ -11,6 +11,10 @@ public class CommonController extends Controller {
 		render("/comm-html/index.html");
 	}
 	
+	public void signin() {
+		render("/comm-html/signin.html");
+	}
+	
 	public void test() {
 		render("/comm-html/test.html");
 	}
